@@ -14,5 +14,9 @@ public class Test {
 			System.out.println(i);
 		
 	}
+	
+	private int subtract(int a, int b){
+		return a - b;
+	}
 
 }
