@@ -1,13 +1,14 @@
 
 public class Git1 {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		for (int i=0; i < 5; i++)
-			System.out.println(i);
-
+		foo1();
 	}
+	
+	public static void foo1() {
+		for (int i=0; i < 5; i++)
+			System.out.println(i);			
+	}
+
 
 }
