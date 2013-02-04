@@ -18,5 +18,8 @@ public class Test {
 	private int subtract(int a, int b){
 		return a - b;
 	}
+	private int add(int a, int b){
+		return a + b;
+	}
 
 }
